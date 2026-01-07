@@ -10,7 +10,7 @@ h1{
     text-align: center;/*centraliza o texto*/
 }
 
-ul {
+.columnList{
    display: flex;
    justify-content: center;
     gap: 60px;
@@ -20,11 +20,14 @@ ul {
     display: flex;
     justify-content: center;
     gap: 60px;
-
+    background-image: url("imagens/brilho.png");
+    background-repeat: no-repeat;
+    background-size: 1600px 400px;
 }
 h2, h3, h4{
     text-align: center;
     color: #7a1f1f;
+   
 }
 .central, .introduction{
     text-align: center;
@@ -34,6 +37,7 @@ h2, h3, h4{
     display: flex;
    justify-content: center;
     gap: 60px;
+   
 }
 
 h1{
